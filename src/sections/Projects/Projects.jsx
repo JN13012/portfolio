@@ -53,8 +53,11 @@ const categoriesOf = (p) =>
 // When it was finished, its last addition, or where it stands (card and modal).
 const cardDate = ({ period, status }) => (period.end ? period.end.split("-").reverse().join("/") : status === "development" ? "En cours" : statusLabels[status].fr);
 
+const projectFromSearch = (search) => new URLSearchParams(search).get("projet");
+
 const Projects = () => {
-  const [selected, setSelected] = useState(null);
+  // A link with ?projet=<slug> opens on that project's modal (used from the CVs).
+  const [selected, setSelected] = useState(() => projects.find((p) => p.slug === projectFromSearch(window.location.search)) ?? null);
   const gallery = selected?.images ?? [];
   const images = gallery.map((image) => image.src);
   const { imageIndex, zoomed, reset: resetGallery, openZoom, closeZoom, step: stepImage } = useImageGallery(images.length);
@@ -95,6 +98,11 @@ const Projects = () => {
   const prev = neighbour(-1);
   const next = neighbour(1);
 
+
+  // Closing a modal opened from a link leaves the visitor on this section, not on the Hero.
+  useEffect(() => {
+    if (projectFromSearch(window.location.search)) document.getElementById("projects")?.scrollIntoView({ behavior: "instant" });
+  }, []);
 
   // The hero assistant opens a project it cites, wherever the visitor is on the page.
   useEffect(

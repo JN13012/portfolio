@@ -59,8 +59,9 @@ function shouldOpenGate(replay = false) {
   if (!window.matchMedia("(min-width: 1024px)").matches) return false;
   if (navigator.connection?.saveData) return false;
   if (replay) return true;
-  // A direct link to a certificate goes straight to it.
-  if (new URLSearchParams(window.location.search).has("certificat")) return false;
+  // A direct link to a certificate or a project goes straight to it.
+  const params = new URLSearchParams(window.location.search);
+  if (params.has("certificat") || params.has("projet")) return false;
   try {
     return sessionStorage.getItem(GATE_KEY) !== "1";
   } catch {

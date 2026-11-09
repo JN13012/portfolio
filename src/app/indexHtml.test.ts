@@ -14,9 +14,9 @@ describe('index.html', () => {
   })
 
   it('opens the intro on the same conditions as the app', () => {
-    // Keep in step with shouldOpenGate (App.jsx): wide screen, motion allowed, no Save-Data, no certificate link.
+    // Keep in step with shouldOpenGate (App.jsx): wide screen, motion allowed, no Save-Data, no certificate or project link.
     const script = read('index.html')
-    for (const condition of ['(prefers-reduced-motion: reduce)', '(min-width: 1024px)', 'saveData', 'certificat', 'gate-seen']) {
+    for (const condition of ['(prefers-reduced-motion: reduce)', '(min-width: 1024px)', 'saveData', 'certificat', 'projet', 'gate-seen']) {
       expect(script).toContain(condition)
       expect(read('src/app/App.jsx')).toContain(condition)
     }
