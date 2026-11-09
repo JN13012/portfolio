@@ -11,6 +11,7 @@ import { baseDeConnaissance } from './base-de-connaissance'
 import { bookworm } from './bookworm'
 import { chatflow } from './chatflow'
 import { chronox } from './chronox'
+import { compass } from './compass'
 import { ctfBlockchain } from './ctf-blockchain'
 import { ctfDuSite } from './ctf-du-site'
 import { fraudsignal } from './fraudsignal'
@@ -31,7 +32,7 @@ export const dossiers: Project[] = [argos, pentest, zeroday]
 
 // « Autres réalisations ». Teams counted with git shortlog (JN13 = Jérémie) on 2026-10-17; for course projects
 // re-uploaded in one commit, sizes given by Jérémie on 2026-10-26 (Vaultborn 3, Smart Fridge 3, POPEYE and My_Marvin solo).
-export const cards: Project[] = [fraudsignal, chronox, mariaAgent, generateurOtpRcs, hackathonCitiz, chatflow, timeManager, salesforceExecutor, kubernetes, bookworm, baseDeConnaissance, labIa, ctfBlockchain, ctfDuSite, argosSecurityArena, smartFridge]
+export const cards: Project[] = [compass, fraudsignal, chronox, mariaAgent, generateurOtpRcs, hackathonCitiz, chatflow, timeManager, salesforceExecutor, kubernetes, bookworm, baseDeConnaissance, labIa, ctfBlockchain, ctfDuSite, argosSecurityArena, smartFridge]
 
 export const projects: Project[] = [blocktrader, ...dossiers, auditWeb, ...ibmApps, ...cards, ...archive]
 

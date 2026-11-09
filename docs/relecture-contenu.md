@@ -1,6 +1,6 @@
 # Relecture du contenu V1 (FR)
 
-> Généré par `npm run review` le 2026-11-07 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
+> Généré par `npm run review` le 2026-11-09 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
 > Les chiffres viennent des dépôts et des certificats (voir les champs `source` dans le code).
 
 ## Introduction
@@ -241,6 +241,21 @@ Bot de trading crypto en paper trading, en conditions réelles. Il a testé des 
 *Angle dev* : Moteur Python compilé (numba), vérifié contre VectorBT et une boucle de référence, 56 tests, CI durcie, exécution serverless.
 
 Chiffres : ≈ 4 000 stratégies testées · 42 stratégies sélectionnées · 7 familles de stratégies · 11 indicateurs de marché suivis
+
+### Compass — En développement · MVP
+
+*Carte* : Un assistant IA qui mène une mission de conseil, du premier entretien au livrable.
+
+Compass assiste le consultant en IA, blockchain et cybersécurité sur une mission en 7 étapes : entretiens, diagnostic, solutions, réglementation, benchmark, POC et livrables. Il s’appuie sur les textes officiels européens, cités mot pour mot, et sur des données publiques sourcées, jamais sur la mémoire du modèle.
+
+**Rien sans source.**
+- Citations : Le modèle désigne un passage ; le texte affiché est relu dans la version officielle.
+- Refus : Hors des textes, il répond que le corpus ne permet pas de conclure.
+- Confidentialité : Une mission confidentielle ne peut appeler qu’un modèle local.
+
+**Résultats.** Sur 48 questions de test gelées avant mesure, 90 % de réponses justes avec gpt-5.1 et 79 % avec un modèle local de 9B. Le POC de démonstration, un agent de lecture des commandes, est évalué sur 30 cas jamais vus : 100 % de commandes justes, mais un cas ambigu sur six accepté, d’où le verdict « pas encore ».
+
+Chiffres : 13 textes officiels européens · 90 % de réponses justes en test
 
 ### FraudSignal — Terminé
 

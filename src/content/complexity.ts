@@ -40,6 +40,8 @@ export const complexity: Record<string, { note: Complexity; why: string }> = {
   'lab-ia': { note: 4, why: '1 + 1 (real model behind server-side flags, filters and Llama Guard) + 1 (public service: quotas, global budget, abuse protection) + 1 (39 server tests, per-step view of each attempt); only 4 levels of 10 so far' },
   'ctf-blockchain': { note: 3, why: '1 + 1 (Solidity exploits and fixes proven by Foundry tests, Slither in CI) + 1 (a real EVM running the compiled contracts in the browser) + 0 (all 3 levels playable on the site); proposed 2026-11-05, to validate with Jérémie' },
   fraudsignal: { note: 4, why: '1 + 1 (LLM pipeline with validation, quote checks and injection hardening, measured against a baseline) + 1 (private Cloud Run deployment, measured then stopped) + 1 (104 tests, documented evaluation and limits)' },
+  // Proposed on 2026-11-09, to validate with Jérémie.
+  compass: { note: 4, why: '1 + 1 (RAG over 13 official EU texts with verified citations, refusals, Wilson intervals, POC evaluation bench) + 1 (live public data, local or hosted model, confidentiality enforced in code) + 1 (88 tests, frozen test set, documented results and limits)' },
   cyberpong: { note: 1, why: 'Pong game in Python' },
   'unit-converter': { note: 1, why: 'Converter with a Tkinter interface' },
   'smart-fridge': { note: 1, why: 'Project-management project' },
