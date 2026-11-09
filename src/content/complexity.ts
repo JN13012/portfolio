@@ -9,7 +9,7 @@ type Complexity = 1 | 2 | 3 | 4 | 5
 export const complexity: Record<string, { note: Complexity; why: string }> = {
   blocktrader: { note: 5, why: 'Backtest engine, anti-overfitting protocols, real market data, market observatory; 56 tests, hardened CI' },
   argos: { note: 5, why: 'Designed scope: an AI pentest and defence agent platform on the level of Strix, Pentera or NodeZero (Jérémie, 2026-10-26); today only the SIRENE discovery exists' },
-  zeroday: { note: 3, why: 'What exists: deterministic Unity core with tests, a hand-written tree editor, ~141,000 words of frozen game design; not playable yet' },
+  zeroday: { note: 4, why: 'Raised above FraudSignal (Jérémie, 2026-11-09). What exists: deterministic Unity core with tests, a hand-written tree editor, ~141,000 words of frozen game design; not playable yet' },
   // Split from « pentest » on 2026-10-26; notes validated by Jérémie the same day.
   pentest: { note: 4, why: 'Active Directory (Kerberos delegation, kerberoasting) and privilege escalation; 25 published reports' },
   'audit-web': { note: 4, why: '1 + 1 (standard tooling, black-box, no finding) + 1 (real client behind a WAF) + 1 (technical report); still above the CTF (Jérémie, 2026-10-26)' },
@@ -39,7 +39,7 @@ export const complexity: Record<string, { note: Complexity; why: string }> = {
   // Proposed on 2026-11-01, to validate with Jérémie.
   'lab-ia': { note: 4, why: '1 + 1 (real model behind server-side flags, filters and Llama Guard) + 1 (public service: quotas, global budget, abuse protection) + 1 (39 server tests, per-step view of each attempt); only 4 levels of 10 so far' },
   'ctf-blockchain': { note: 3, why: '1 + 1 (Solidity exploits and fixes proven by Foundry tests, Slither in CI) + 1 (a real EVM running the compiled contracts in the browser) + 0 (all 3 levels playable on the site); proposed 2026-11-05, to validate with Jérémie' },
-  fraudsignal: { note: 4, why: '1 + 1 (LLM pipeline with validation, quote checks and injection hardening, measured against a baseline) + 1 (private Cloud Run deployment, measured then stopped) + 1 (104 tests, documented evaluation and limits)' },
+  fraudsignal: { note: 3, why: 'Lowered below ZeroDay (Jérémie, 2026-11-09); was 1 + 1 (LLM pipeline with validation, quote checks and injection hardening, measured against a baseline) + 1 (private Cloud Run deployment, measured then stopped) + 1 (104 tests, documented evaluation and limits)' },
   // Proposed on 2026-11-09, to validate with Jérémie.
   compass: { note: 4, why: '1 + 1 (RAG over 13 official EU texts with verified citations, refusals, Wilson intervals, POC evaluation bench) + 1 (live public data, local or hosted model, confidentiality enforced in code) + 1 (88 tests, frozen test set, documented results and limits)' },
   cyberpong: { note: 1, why: 'Pong game in Python' },
