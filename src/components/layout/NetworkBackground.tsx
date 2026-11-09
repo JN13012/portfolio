@@ -124,6 +124,8 @@ export function NetworkBackground({ density = 1, packets: withPackets = false, s
       const oy = pointer.py * 8
       ctx!.setTransform(1, 0, 0, 1, 0, 0)
       ctx!.clearRect(0, 0, canvas!.width, canvas!.height)
+      // A window with no size yet (a page opened straight on a modal, a hidden tab) gives an empty layer: drawImage would throw.
+      if (!base.width || !base.height) return
       ctx!.drawImage(base, ox * dpr, oy * dpr)
       ctx!.setTransform(dpr, 0, 0, dpr, ox * dpr, oy * dpr)
       // Links near the cursor light up.
