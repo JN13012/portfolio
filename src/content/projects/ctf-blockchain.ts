@@ -5,11 +5,10 @@ import cTFBlockchainImg from '../../assets/Projets/CTF_Blockchain.webp'
 export const ctfBlockchain: Project = {
   slug: 'ctf-blockchain',
   tier: 'card',
-  status: 'development',
-  stage: 'MVP',
+  status: 'delivered',
   tracks: ['blockchain', 'cyber'],
   title: 'CTF Blockchain',
-  period: { start: '2026-11' },
+  period: { start: '2026-11', end: '2026-11' },
   team: { size: 1 },
   context: 'personal',
   tagline: {

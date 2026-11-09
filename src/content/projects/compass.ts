@@ -8,11 +8,10 @@ import compassCyberImg from '../../assets/Projets/Compass_Cyber.webp'
 export const compass: Project = {
   slug: 'compass',
   tier: 'card',
-  status: 'development',
-  stage: 'MVP',
+  status: 'delivered',
   tracks: ['ia', 'blockchain', 'cyber'],
   title: 'Compass',
-  period: { start: '2026-11' },
+  period: { start: '2026-11', end: '2026-11' },
   team: { size: 1 },
   context: 'personal',
   tagline: {

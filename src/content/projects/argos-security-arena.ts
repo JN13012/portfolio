@@ -5,7 +5,7 @@ import arenaPathImg from '../../assets/Projets/Arena_Path.webp'
 export const argosSecurityArena: Project = {
   slug: 'argos-security-arena',
   tier: 'card',
-  status: 'development',
+  status: 'paused',
   stage: 'POC',
   tracks: ['cyber', 'ia'],
   // Repo JN13012/Lab_CTF (README: « Atlas Academy »), last commit 2026-10-02; title kept by Jérémie (2026-10-26).

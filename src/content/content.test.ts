@@ -82,7 +82,7 @@ describe('content', () => {
   })
 
   it('gives a stage only to projects in development', () => {
-    for (const p of projects) if (p.stage) expect(p.status, p.slug).toBe('development')
+    for (const p of projects) if (p.stage) expect(['development', 'paused'], p.slug).toContain(p.status)
   })
 
   it('contains no placeholder links', () => {

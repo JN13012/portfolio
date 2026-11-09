@@ -43,6 +43,7 @@ const statusStyles = {
   development: "text-sky-300 border-sky-500/40 bg-sky-500/10",
   ongoing: "text-sky-300 border-sky-500/40 bg-sky-500/10",
   "paper-trading": "text-sky-300 border-sky-500/40 bg-sky-500/10",
+  paused: "text-zinc-400 border-zinc-500/40 bg-zinc-500/10",
 };
 
 // Domain badges, in the order of the project's tracks; projects without one fall back to their first tool.

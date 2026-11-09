@@ -13,8 +13,9 @@ export type Track = 'ia' | 'data' | 'cyber' | 'dev' | 'devops' | 'blockchain'
 /**
  * `ongoing`: a series that keeps growing (write-ups, notes), shown « En continu ».
  * `paper-trading`: working and running on real market data, with no real funds.
+ * `paused`: started, then put on hold until something else moves (e.g. Argos Security Arena waits for Argos).
  */
-export type ProjectStatus = 'development' | 'delivered' | 'ongoing' | 'paper-trading'
+export type ProjectStatus = 'development' | 'delivered' | 'ongoing' | 'paper-trading' | 'paused'
 
 /**
  * Standard scale of a project in development, shown in its modal (decision 2026-10-31):
@@ -68,7 +69,7 @@ export type Project = {
   slug: string
   tier: ProjectTier
   status: ProjectStatus
-  /** Only with status `development`. */
+  /** Only with status `development` or `paused`. */
   stage?: ProjectStage
   /** Shown with the personal & professional projects although made in a course (e.g. Argos, pursued beyond Epitech). */
   showcase?: 'perso-pro'

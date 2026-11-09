@@ -12,6 +12,7 @@ export const statusLabels: Record<ProjectStatus, Localized> = {
   delivered: { fr: 'Terminé', en: 'Finished' },
   ongoing: { fr: 'En continu', en: 'Ongoing' },
   'paper-trading': { fr: 'Paper trading', en: 'Paper trading' },
+  paused: { fr: 'En pause', en: 'On hold' },
 }
 
 /** Type badge of a certification card: what was actually obtained. */

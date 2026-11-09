@@ -242,7 +242,7 @@ Bot de trading crypto en paper trading, en conditions réelles. Il a testé des 
 
 Chiffres : ≈ 4 000 stratégies testées · 42 stratégies sélectionnées · 7 familles de stratégies · 11 indicateurs de marché suivis
 
-### Compass — En développement · MVP
+### Compass — Terminé
 
 *Carte* : Un assistant IA qui mène une mission de conseil, du premier entretien au livrable.
 
@@ -415,7 +415,7 @@ Un exercice de red teaming jouable dans le CTF de ce site, face à Sentry, qui r
 
 Chiffres : 5 niveaux ouverts · 10 niveaux prévus · 39 tests du serveur
 
-### CTF Blockchain — En développement · MVP
+### CTF Blockchain — Terminé
 
 *Carte* : Un CTF de smart contracts Solidity : chaque faille exploitée, corrigée et prouvée par des tests.
 
@@ -444,7 +444,7 @@ Un CTF jouable sur ce site, dans un terminal simulé. On attaque d’abord une m
 
 Chiffres : 9 niveaux · 21 commandes et outils simulés
 
-### Argos Security Arena — En développement · POC
+### Argos Security Arena — En pause · POC
 
 *Carte* : Plateforme de benchmark et d’entraînement en cybersécurité, pour les humains comme pour les agents IA.
 
