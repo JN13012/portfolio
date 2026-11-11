@@ -23,7 +23,7 @@ export const introJourney: JourneyStop[] = [
 
 export const introCopy = {
   portfolio: { fr: 'Portfolio personnel', en: 'Personal portfolio' },
-  domains: { fr: 'IA · Cybersécurité', en: 'AI · Cybersecurity' },
+  domains: { fr: 'IA · Cybersécurité · Blockchain', en: 'AI · Cybersecurity · Blockchain' },
   title: { fr: 'Un parcours.', en: 'One journey.' },
   titleAccent: { fr: 'Plusieurs horizons.', en: 'Many horizons.' },
   description: {
