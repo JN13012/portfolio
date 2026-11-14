@@ -1,6 +1,6 @@
 # Relecture du contenu V1 (FR)
 
-> Généré par `npm run review` le 2026-11-09 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
+> Généré par `npm run review` le 2026-11-14 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
 > Les chiffres viennent des dépôts et des certificats (voir les champs `source` dans le code).
 
 ## Introduction
@@ -230,7 +230,7 @@ Stack : Unity, C#, JavaScript
 
 *Carte* : Bot de trading crypto en paper trading : 42 stratégies évaluées avec un protocole anti-surapprentissage.
 
-Bot de trading crypto en paper trading, en conditions réelles. Il a testé des milliers de stratégies sur huit ans d’historique BTC et ETH pour ne garder que les plus prometteuses. Relié à de nombreuses sources de données publiques, il suit déjà 11 indicateurs du marché ; demain, une IA les analysera pour lire la situation, réduire l’exposition et donner la main aux stratégies les plus adaptées.
+Bot de trading crypto en paper trading, en conditions réelles. Il a testé des milliers de stratégies sur huit ans d’historique BTC et ETH pour ne garder que les plus prometteuses. Relié à de nombreuses sources de données publiques, il suit déjà 11 indicateurs du marché ; demain, une IA les analysera pour lire la situation, réduire l’exposition et favoriser les stratégies adaptées au marché du moment.
 
 *Angle ia* : Pensé pour être piloté par une IA : stratégies évaluées et lecture du marché lui fourniront des conclusions vérifiables, et une règle de sûreté borne déjà ce qu’elle pourra faire.
 

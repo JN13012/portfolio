@@ -19,7 +19,7 @@ export const blocktrader: Project = {
     fr: 'Bot de trading crypto en paper trading : 42 stratégies évaluées avec un protocole anti-surapprentissage.',
   },
   summary: {
-    fr: 'Bot de trading crypto en paper trading, en conditions réelles. Il a testé des milliers de stratégies sur huit ans d’historique BTC et ETH pour ne garder que les plus prometteuses. Relié à de nombreuses sources de données publiques, il suit déjà 11 indicateurs du marché ; demain, une IA les analysera pour lire la situation, réduire l’exposition et donner la main aux stratégies les plus adaptées.',
+    fr: 'Bot de trading crypto en paper trading, en conditions réelles. Il a testé des milliers de stratégies sur huit ans d’historique BTC et ETH pour ne garder que les plus prometteuses. Relié à de nombreuses sources de données publiques, il suit déjà 11 indicateurs du marché ; demain, une IA les analysera pour lire la situation, réduire l’exposition et favoriser les stratégies adaptées au marché du moment.',
   },
   angles: {
     ia: {
