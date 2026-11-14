@@ -83,6 +83,12 @@ export const dialogUi = {
   nextImage: { fr: 'Image suivante', en: 'Next image' },
 }
 
+/** The picture of a Parcours entry, opened full size. */
+export const parcoursPictureUi = {
+  enlarge: (title: string) => `Agrandir l’image : ${title}`,
+  dialog: (title: string) => `${title}, image agrandie (Échap pour fermer)`,
+}
+
 const percent = (value: number) => `${value.toLocaleString('fr-FR')}\u00a0%`
 export const gradeLabels = {
   grade: (value: number) => `Note : ${percent(value)}`,

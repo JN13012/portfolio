@@ -2,7 +2,8 @@ import { lazy, Suspense, useCallback, useEffect, useRef, useState, useSyncExtern
 import SectionHeader from '../../components/ui/SectionHeader'
 import { timeline } from '../../content/timeline'
 import type { TimelineEntry, TimelineTone, YearMonth } from '../../content/types'
-import { parcoursEffectsLabels } from '../../content/ui'
+import { dialogUi, parcoursEffectsLabels, parcoursPictureUi } from '../../content/ui'
+import { ImageLightbox } from '../../components/ui/dialogs/ImageLightbox'
 import { useReducedMotion } from '../../lib/useReducedMotion'
 import { cx } from '../../lib/cx'
 import { Lock } from 'lucide-react'
@@ -267,6 +268,9 @@ function Axis({ selected, onSelect }: { selected: string; onSelect: (id: string)
 }
 
 function Details({ entry: e, className }: { entry: TimelineEntry; className?: string }) {
+  const [zoomed, setZoomed] = useState(false)
+  const pictureButton = useRef<HTMLButtonElement>(null)
+  const closeZoom = () => { setZoomed(false); pictureButton.current?.focus() }
   return (
     <article className={cx('grid gap-6 rounded-xl border border-white/10 bg-zinc-950/55 p-6 backdrop-blur-sm lg:p-8', e.picture && 'md:grid-cols-[1fr_20rem] xl:grid-cols-[1fr_24rem]', className)}>
       <div className="min-w-0">
@@ -327,14 +331,19 @@ function Details({ entry: e, className }: { entry: TimelineEntry; className?: st
         )}
       </div>
       {e.picture && (
-        <div className={cx('group/pic hidden min-h-0 overflow-hidden md:block', e.picture.fit !== 'contain' && 'rounded-lg border border-white/10')}>
+        <button ref={pictureButton} type="button" onClick={() => setZoomed(true)} aria-label={parcoursPictureUi.enlarge(e.title.fr)}
+          className={cx('group/pic hidden min-h-0 cursor-zoom-in overflow-hidden focus-visible:outline-2 focus-visible:outline-cyber md:block', e.picture.fit !== 'contain' && 'rounded-lg border border-white/10')}>
           <img
             src={e.picture.src}
             alt=""
             loading="lazy"
             className={cx('size-full transition-transform duration-500 group-hover/pic:scale-110', e.picture.fit === 'contain' ? 'object-contain' : 'object-cover')}
           />
-        </div>
+        </button>
+      )}
+      {e.picture && zoomed && (
+        <ImageLightbox src={e.picture.src} alt={e.title.fr} label={parcoursPictureUi.dialog(e.title.fr)} onClose={closeZoom}
+          labels={{ previous: dialogUi.previousImage.fr, next: dialogUi.nextImage.fr }} />
       )}
     </article>
   )
