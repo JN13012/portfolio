@@ -149,7 +149,7 @@ export const expertise: ExpertiseDomain[] = [
     },
     proofs: [
       { fr: 'Cyber Security 101 (SEC1)', en: 'Cyber Security 101 (SEC1)' },
-      { fr: 'SOC Level 1 en cours', en: 'SOC Level 1 in progress' },
+      { fr: 'SOC Level 1 (66 h)', en: 'SOC Level 1 (66 h)' },
     ],
     tools: [
       t('Splunk', 'Investigation de logs', 'Log investigation'),

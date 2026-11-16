@@ -52,7 +52,7 @@ export const tracks: TrackContent[] = [
       { fr: 'Jr Penetration Tester (96 h)', en: 'Jr Penetration Tester (96 h)' },
       { fr: '25 write-ups publiés', en: '25 published write-ups' },
       { fr: 'Un audit web autorisé', en: 'One authorised web audit' },
-      { fr: 'SOC Level 1 en cours', en: 'SOC Level 1 in progress' },
+      { fr: 'SOC Level 1 (66 h)', en: 'SOC Level 1 (66 h)' },
     ],
     featured: ['pentest', 'argos'],
   },

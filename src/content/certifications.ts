@@ -1,6 +1,7 @@
 import type { Credential, InProgress } from './types'
 import thmJrPentesterImg from '../assets/THM/THM_Jr_Pentester.png'
 import thmSecurityEngineerImg from '../assets/THM/THM_Security_Engineer.webp'
+import thmSocLevel1Img from '../assets/THM/THM_SOC_Level_1.webp'
 import thmDevSecOpsImg from '../assets/THM/THM_DevSecOps.webp'
 import thmSuperchargingAIImg from '../assets/THM/THM_Supercharging_AI.webp'
 import thmSEC1Img from '../assets/THM/THM - SEC1.png'
@@ -81,6 +82,32 @@ export const credentials: Credential[] = [
     images: [thmSecurityEngineerImg],
     thumbPosition: 'center 18%',
     stack: ['Threat Modelling', 'SSDLC', 'SAST / DAST', 'Hardening', 'Network Security', 'Risk Management', 'Incident Response'],
+  },
+  {
+    id: 'thm-soc-level-1',
+    title: 'SOC Level 1',
+    issuer: 'TryHackMe',
+    kind: 'learning-path',
+    tracks: ['cyber'],
+    date: '2026-11-16',
+    level: 2,
+    // The certificate prints no ID: the profile link is the proof.
+    verifyUrl: 'https://tryhackme.com/p/JN13',
+    hours: 66, // 65 h 29 on the certificate
+    note: {
+      fr: 'Parcours d’analyste SOC de niveau 1 : surveiller, trier et traiter les alertes.',
+      en: 'Level 1 SOC analyst path: monitoring, triaging and handling alerts.',
+    },
+    points: [
+      { label: { fr: 'Alertes', en: 'Alerts' }, text: { fr: 'tri et qualification', en: 'triage and qualification' } },
+      { label: { fr: 'Phishing', en: 'Phishing' }, text: { fr: 'analyse d’e-mails suspects', en: 'analysing suspicious emails' } },
+      { label: { fr: 'Réseau', en: 'Network' }, text: { fr: 'analyse du trafic', en: 'traffic analysis' } },
+      { label: { fr: 'Postes', en: 'Endpoints' }, text: { fr: 'surveillance Windows et Linux', en: 'Windows and Linux monitoring' } },
+      { label: { fr: 'SIEM', en: 'SIEM' }, text: { fr: 'investigation dans Splunk', en: 'investigating in Splunk' } },
+      { label: { fr: 'Incidents', en: 'Incidents' }, text: { fr: 'réponse à incident', en: 'incident response' } },
+    ],
+    images: [thmSocLevel1Img],
+    stack: ['SIEM', 'Splunk', 'Wireshark', 'EDR', 'Phishing Analysis', 'Incident Response'],
   },
   {
     id: 'thm-devsecops',
@@ -529,8 +556,8 @@ export const inProgress: InProgress[] = [
     title: 'AI Security',
     issuer: 'TryHackMe',
     tracks: ['cyber', 'ia'],
-    progress: 0.05,
-    measuredAt: '2026-10-26',
+    progress: 0.3,
+    measuredAt: '2026-11-16',
     verifyUrl: 'https://tryhackme.com/p/JN13',
     note: {
       fr: 'Parcours de sécurité de l’IA (25 salles, 5 modules), côté attaque et défense. Il prépare à la certification AI1.',
@@ -544,28 +571,6 @@ export const inProgress: InProgress[] = [
       { label: { fr: 'Investigation', en: 'Investigation' }, text: { fr: 'reconnaissance de systèmes d’IA, forensique', en: 'AI system reconnaissance, forensics' } },
     ],
     stack: ['LLM Pentesting', 'Prompt Injection', 'OWASP LLM Top 10', 'MITRE ATLAS', 'RAG', 'AI Threat Modelling', 'AI Forensics'],
-  },
-  {
-    id: 'thm-soc-level-1',
-    title: 'SOC Level 1',
-    issuer: 'TryHackMe',
-    tracks: ['cyber'],
-    progress: 0.5,
-    measuredAt: '2026-10-17',
-    verifyUrl: 'https://tryhackme.com/p/JN13',
-    note: {
-      fr: 'Parcours d’analyste SOC de niveau 1 : surveiller, trier et traiter les alertes.',
-      en: 'Level 1 SOC analyst path: monitoring, triaging and handling alerts.',
-    },
-    points: [
-      { label: { fr: 'Alertes', en: 'Alerts' }, text: { fr: 'tri et qualification', en: 'triage and qualification' } },
-      { label: { fr: 'Phishing', en: 'Phishing' }, text: { fr: 'analyse d’e-mails suspects', en: 'analysing suspicious emails' } },
-      { label: { fr: 'Réseau', en: 'Network' }, text: { fr: 'analyse du trafic', en: 'traffic analysis' } },
-      { label: { fr: 'Postes', en: 'Endpoints' }, text: { fr: 'surveillance Windows et Linux', en: 'Windows and Linux monitoring' } },
-      { label: { fr: 'SIEM', en: 'SIEM' }, text: { fr: 'investigation dans Splunk', en: 'investigating in Splunk' } },
-      { label: { fr: 'Incidents', en: 'Incidents' }, text: { fr: 'réponse à incident', en: 'incident response' } },
-    ],
-    stack: ['SIEM', 'Splunk', 'Wireshark', 'EDR', 'Phishing Analysis', 'Incident Response'],
   },
 ]
 

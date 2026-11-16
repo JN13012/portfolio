@@ -1,6 +1,6 @@
 # Relecture du contenu V1 (FR)
 
-> Généré par `npm run review` le 2026-11-14 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
+> Généré par `npm run review` le 2026-11-16 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
 > Les chiffres viennent des dépôts et des certificats (voir les champs `source` dans le code).
 
 ## Introduction
@@ -146,7 +146,7 @@ Preuves : 2e place au hackathon Microsoft × Citiz · Réseau piéton de 16,6 M 
 
 Pentest web et Active Directory avec une méthode documentée de bout en bout, et une montée en compétence côté SOC.
 
-Preuves : Jr Penetration Tester (96 h) · 25 write-ups publiés · Un audit web autorisé · SOC Level 1 en cours
+Preuves : Jr Penetration Tester (96 h) · 25 write-ups publiés · Un audit web autorisé · SOC Level 1 (66 h)
 
 ### Dev
 
@@ -692,6 +692,13 @@ De la préparation commando à l’engagement comme militaire du rang : rigueur,
   - Menaces : modélisation des menaces
   - Risques : gestion des vulnérabilités et des risques
   - Incidents : réponse à incident
+- **SOC Level 1** — TryHackMe, 2026-11-16 · Parcours · EASY · 66 h — Parcours d’analyste SOC de niveau 1 : surveiller, trier et traiter les alertes.
+  - Alertes : tri et qualification
+  - Phishing : analyse d’e-mails suspects
+  - Réseau : analyse du trafic
+  - Postes : surveillance Windows et Linux
+  - SIEM : investigation dans Splunk
+  - Incidents : réponse à incident
 - **DevSecOps** — TryHackMe, 2026-10-26 · Parcours · MEDIUM · 27 h — Intégrer la sécurité à chaque étape de la chaîne de livraison logicielle : 5 modules, 18 labs pratiques.
   - Développement sécurisé : cycle de développement sécurisé, culture DevSecOps
   - Sécurité du pipeline : outils et configurations de la chaîne CI/CD
@@ -778,7 +785,7 @@ De la préparation commando à l’engagement comme militaire du rang : rigueur,
   - Entreprises : transformation des métiers et des carrières
   - Éthique : enjeux, risques et IA responsable
 
-En cours : AI Security (5 % au 2026-10-26) — Parcours de sécurité de l’IA (25 salles, 5 modules), côté attaque et défense. Il prépare à la certification AI1. · SOC Level 1 (50 % au 2026-10-17) — Parcours d’analyste SOC de niveau 1 : surveiller, trier et traiter les alertes.
+En cours : AI Security (30 % au 2026-11-16) — Parcours de sécurité de l’IA (25 salles, 5 modules), côté attaque et défense. Il prépare à la certification AI1.
 
 ## Contact
 
