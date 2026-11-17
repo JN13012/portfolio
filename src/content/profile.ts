@@ -101,9 +101,9 @@ export const profile = {
       id: 'blockchain',
       title: { fr: 'Monter et superviser une infra', en: 'Building and monitoring infrastructure' },
       context: { fr: 'Minage blockchain', en: 'Blockchain mining' },
-      period: { start: '2018', end: '2022' },
+      period: { start: '2018', end: 'aujourd’hui' },
       text: {
-        fr: 'Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité.',
+        fr: 'Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité. Elle m’a amené à me reconvertir dans l’informatique. Aujourd’hui, le minage a laissé place à mes propres validateurs Ethereum.',
         en: 'My first entrepreneurial experience running IT systems, with responsibility for their reliability and profitability.',
       },
     },

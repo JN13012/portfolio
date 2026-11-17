@@ -1,6 +1,6 @@
 # Relecture du contenu V1 (FR)
 
-> Généré par `npm run review` le 2026-11-16 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
+> Généré par `npm run review` le 2026-11-17 à partir de `src/content/`. Ne pas modifier ce fichier à la main : corriger le contenu source, puis régénérer.
 > Les chiffres viennent des dépôts et des certificats (voir les champs `source` dans le code).
 
 ## Introduction
@@ -36,7 +36,7 @@ Je suis arrivé à l’IA et à la cybersécurité par un chemin peu commun. Cha
 **Avant l’informatique, et ce que j’en garde :**
 - **Décider sous pression, agir ensemble** (Armée, 2014 – 2016) : L’exigence du terrain m’a appris la discipline, la cohésion et l’importance de pouvoir compter les uns sur les autres.
 - **Diagnostiquer vite, sans droit à l’erreur** (Mécanique, 2017 – 2025) : Responsable des pneumatiques d’un prototype LMP2 lors du FIA World Endurance Championship, WEC 2017. Un arrêt au stand ne se rejoue pas.
-- **Monter et superviser une infra** (Minage blockchain, 2018 – 2022) : Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité.
+- **Monter et superviser une infra** (Minage blockchain, 2018 – aujourd’hui) : Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité. Elle m’a amené à me reconvertir dans l’informatique. Aujourd’hui, le minage a laissé place à mes propres validateurs Ethereum.
 
 **International** — 5 langues · 6 pays où j’ai vécu. Un parcours immersif entre plusieurs pays m’a appris à m’adapter rapidement à de nouveaux environnements. FR 22 ans · LB 4 ans · SA 5 ans · QA 3 ans · CA 3 mois · PE 1 an et demi
 
@@ -601,15 +601,15 @@ Année préparatoire au Master of Science.
 
 Activité personnelle
 
-Après le minage, je reste investi à titre personnel et je suis de près l’écosystème crypto : évolutions des protocoles, sécurité, régulation et trading.
+Après le minage, je reste investi à titre personnel et je suis de près l’écosystème crypto : validation Ethereum, évolutions des protocoles, sécurité, régulation et trading.
 
 ### Infrastructure de minage — Indépendant (2018 – 09/2022)
 
-Conception, assemblage et exploitation de fermes de minage (Ethereum avant le passage au Proof-of-Stake, Bitcoin, Raptoreum, Chia).
+Conception, assemblage et exploitation de fermes de minage (Ethereum avant le passage au Proof-of-Stake, Bitcoin, Monero, Raptoreum, Chia…).
 
 - Administration et supervision sous HiveOS, Braiins OS, Linux et Windows ; automatisation des redémarrages, mises à jour et gestion d’erreurs.
 - Optimisation des performances, de la consommation et du refroidissement (overclocking, undervolting).
-- Optimisation des stratégies de minage sur Ethereum : Flashbots et Maximal Extractable Value (MEV).
+- Optimisation des stratégies de minage sur Ethereum : dual mining, Flashbots et Maximal Extractable Value (MEV).
 - Diagnostic des pannes et maintenance du matériel.
 
 ### Technicien mécanique - compétition et maintenance — G-Drive Racing · Wärtsilä · Renault (2017 – 07/2025)

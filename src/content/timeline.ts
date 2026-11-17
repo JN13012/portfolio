@@ -146,7 +146,7 @@ export const timeline: TimelineEntry[] = [
     row: 1,
     current: true,
     summary: {
-      fr: 'Après le minage, je reste investi à titre personnel et je suis de près l’écosystème crypto : évolutions des protocoles, sécurité, régulation et trading.',
+      fr: 'Après le minage, je reste investi à titre personnel et je suis de près l’écosystème crypto : validation Ethereum, évolutions des protocoles, sécurité, régulation et trading.',
       en: 'After mining, I stay invested on a personal basis and follow the crypto ecosystem closely: protocol changes, security, regulation and trading.',
     },
     tracks: [],
@@ -165,7 +165,7 @@ export const timeline: TimelineEntry[] = [
     tone: 'before',
     row: 1,
     summary: {
-      fr: 'Conception, assemblage et exploitation de fermes de minage (Ethereum avant le passage au Proof-of-Stake, Bitcoin, Raptoreum, Chia).',
+      fr: 'Conception, assemblage et exploitation de fermes de minage (Ethereum avant le passage au Proof-of-Stake, Bitcoin, Monero, Raptoreum, Chia…).',
       en: 'Design, assembly and operation of mining farms (Ethereum before Proof-of-Stake, Bitcoin, Raptoreum, Chia).',
     },
     highlights: [
@@ -177,10 +177,10 @@ export const timeline: TimelineEntry[] = [
         fr: 'Optimisation des performances, de la consommation et du refroidissement (overclocking, undervolting).',
         en: 'Performance, power and cooling optimisation (overclocking, undervolting).',
       },
-      // Told by Jérémie on 2026-10-26.
+      // Told by Jérémie on 2026-10-26; dual mining added on 2026-11-17.
       {
-        fr: 'Optimisation des stratégies de minage sur Ethereum : Flashbots et Maximal Extractable Value (MEV).',
-        en: 'Optimising mining strategies on Ethereum: Flashbots and Maximal Extractable Value (MEV).',
+        fr: 'Optimisation des stratégies de minage sur Ethereum : dual mining, Flashbots et Maximal Extractable Value (MEV).',
+        en: 'Optimising mining strategies on Ethereum: dual mining, Flashbots and Maximal Extractable Value (MEV).',
       },
       { fr: 'Diagnostic des pannes et maintenance du matériel.', en: 'Hardware fault diagnosis and maintenance.' },
     ],
