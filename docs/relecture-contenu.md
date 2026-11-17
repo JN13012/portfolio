@@ -36,7 +36,7 @@ Je suis arrivé à l’IA et à la cybersécurité par un chemin peu commun. Cha
 **Avant l’informatique, et ce que j’en garde :**
 - **Décider sous pression, agir ensemble** (Armée, 2014 – 2016) : L’exigence du terrain m’a appris la discipline, la cohésion et l’importance de pouvoir compter les uns sur les autres.
 - **Diagnostiquer vite, sans droit à l’erreur** (Mécanique, 2017 – 2025) : Responsable des pneumatiques d’un prototype LMP2 lors du FIA World Endurance Championship, WEC 2017. Un arrêt au stand ne se rejoue pas.
-- **Monter et superviser une infra** (Minage blockchain, 2018 – aujourd’hui) : Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité. Elle m’a amené à me reconvertir dans l’informatique. Aujourd’hui, le minage a laissé place à mes propres validateurs Ethereum.
+- **Monter et superviser une infrastructure de minage** (Blockchain, 2018 – aujourd’hui) : Ma première expérience entrepreneuriale dans l’exploitation de systèmes informatiques, avec la responsabilité du bon fonctionnement et de la rentabilité. Elle m’a amené à me reconvertir dans l’informatique. Aujourd’hui, le minage a laissé place à des validateurs Ethereum.
 
 **International** — 5 langues · 6 pays où j’ai vécu. Un parcours immersif entre plusieurs pays m’a appris à m’adapter rapidement à de nouveaux environnements. FR 22 ans · LB 4 ans · SA 5 ans · QA 3 ans · CA 3 mois · PE 1 an et demi
 
